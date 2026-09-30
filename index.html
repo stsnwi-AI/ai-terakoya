@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI寺子屋｜毎日10分。AIと一緒に「自分で考える力」を育てる</title>
+<meta name="theme-color" content="#26332f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="AI寺子屋">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="description" content="AI寺子屋は、毎日10分のAIとの対話を通して、利用者が自分で考え、自分で判断し、行動する力を育てる学びの場です。">
+<style id="ai-terakoya-responsive-style">:root{--ink:#24302d;--muted:#68736f;--paper:#fffdf9;--light:#f4f1e9;--line:#ddd8cc;--accent:#8a5a32;--accent2:#b98550;--dark:#26332f;--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP","Yu Gothic",Meiryo,sans-serif;line-height:1.85}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.narrow{max-width:780px}.center{text-align:center}.site-header{position:sticky;top:0;z-index:20;background:rgba(255,253,249,.94);backdrop-filter:blur(10px);border-bottom:1px solid rgba(221,216,204,.7)}.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:21px;font-weight:800;letter-spacing:.08em}.nav nav{display:flex;align-items:center;gap:25px;font-size:14px}.nav-cta{padding:9px 16px;border-radius:999px;background:var(--dark);color:#fff}.hero{padding:90px 0 85px;background:radial-gradient(circle at 80% 20%,#eee4d4 0,transparent 32%),linear-gradient(135deg,#fbfaf5,#f1eee6)}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:70px;align-items:center}.eyebrow{margin:0 0 12px;color:var(--accent);font-size:13px;font-weight:800;letter-spacing:.13em}.hero h1{font-size:clamp(36px,5vw,61px);line-height:1.25;letter-spacing:-.035em;margin:0 0 25px}.hero h1 span{position:relative}.hero h1 span:after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:8px;background:#d9bf9d;opacity:.6;z-index:-1}.lead{font-size:17px;color:#4e5a56}.hero-actions{display:flex;gap:13px;margin-top:32px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:15px;padding:14px 25px;border-radius:999px;font-weight:800;font-size:15px;transition:.2s}.button.primary{background:var(--dark);color:#fff;box-shadow:0 8px 20px rgba(38,51,47,.14)}.button.primary:hover{transform:translateY(-2px)}.button.secondary{border:1px solid var(--line);background:#fff}.button.big{padding:17px 38px;font-size:17px}.micro{font-size:12px;color:var(--muted);margin-top:15px}.hero-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:25px;box-shadow:0 25px 60px rgba(70,58,42,.1);transform:rotate(1deg)}.card-label{font-size:12px;color:var(--accent);font-weight:800;margin-bottom:18px}.dialogue{padding:13px 15px;border-radius:14px;margin:10px 0}.dialogue span{display:block;font-size:11px;color:var(--muted);margin-bottom:3px}.dialogue strong{font-size:14px;line-height:1.55}.dialogue.ai{background:#f4f0e7}.dialogue.child{background:#f8f8f5;margin-left:25px}.card-bottom{margin-top:22px;text-align:center;font-weight:800;font-size:14px}.trust-strip{background:var(--dark);color:#fff}.trust-items{display:grid;grid-template-columns:repeat(4,1fr)}.trust-items div{padding:22px 15px;text-align:center;border-right:1px solid rgba(255,255,255,.12)}.trust-items div:last-child{border:0}.trust-items strong,.trust-items span{display:block}.trust-items strong{font-size:21px}.trust-items span{font-size:11px;opacity:.75}.section{padding:105px 0}.section.light{background:var(--light)}.section h2,.final-cta h2{font-size:clamp(29px,4vw,43px);line-height:1.4;letter-spacing:-.025em;margin:0 0 24px}.intro p{font-size:16px;color:#53605b}.intro p+p{margin-top:20px}.section-heading{margin-bottom:48px}.section-heading>p:last-child{color:var(--muted);margin:0}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.value-grid article{background:#fff;padding:28px;border:1px solid var(--line);border-radius:18px}.icon{font-size:12px;color:var(--accent);font-weight:800;margin-bottom:12px}.value-grid h3{margin:0 0 8px;font-size:19px}.value-grid p{margin:0;color:var(--muted);font-size:14px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{border-top:2px solid var(--dark);padding-top:18px}.step span{font-size:12px;color:var(--accent);font-weight:800}.step h3{margin:8px 0 8px;font-size:18px}.step p{font-size:14px;color:var(--muted);margin:0}.quote{margin:45px auto 0;padding:24px;border-radius:16px;background:#f1eee7;text-align:center;max-width:850px}.curriculum-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.curriculum-grid p{color:var(--muted)}.text-link{display:inline-block;margin-top:12px;color:var(--accent);font-weight:800}.timeline{display:grid;gap:10px}.timeline div{display:flex;align-items:center;gap:18px;padding:17px 20px;background:#fff;border:1px solid var(--line);border-radius:13px}.timeline b{width:58px;color:var(--accent);font-size:13px}.timeline span{font-weight:700}.philosophy{background:#2d3834;color:#fff}.philosophy-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.philosophy-card{padding:48px;border:1px solid rgba(255,255,255,.18);border-radius:22px;background:rgba(255,255,255,.04)}.philosophy-card p{opacity:.75}.philosophy-card h2{font-size:clamp(28px,4vw,43px);margin:10px 0 0}.philosophy-copy p{color:rgba(255,255,255,.8)}.parent-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.parent-grid>div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:25px}.parent-grid h3{margin:0 0 7px;font-size:17px}.parent-grid p{margin:0;color:var(--muted);font-size:14px}.parent-note{margin-top:25px;padding:16px;background:#ebe7dc;color:#6b706b;font-size:12px;border-radius:10px}.start{padding:90px 0}.start-box{max-width:900px;text-align:center;background:#efe7da;border-radius:28px;padding:65px 35px}.start-box h2{margin-bottom:12px}.start-box p{color:#59635f}.start-flow{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin:28px 0;font-size:13px;font-weight:700}.start-flow span{background:#fff;padding:9px 13px;border-radius:999px}.start-flow b{color:var(--accent)}.final-cta{padding:95px 0;background:#f8f5ee}.final-cta p{color:var(--muted);margin-bottom:28px}.site-footer{background:#202a27;color:#fff;padding:45px 0 20px}.footer-grid{display:flex;justify-content:space-between;gap:40px}.footer-grid strong{font-size:20px}.footer-grid p{font-size:12px;opacity:.7}.footer-grid>div:last-child{display:grid;grid-template-columns:repeat(2,auto);gap:8px 28px;font-size:13px;opacity:.85}.copyright{border-top:1px solid rgba(255,255,255,.1);margin-top:30px;padding-top:18px;font-size:11px;opacity:.5}@media(max-width:850px){.nav{align-items:flex-start;gap:10px}.nav nav{gap:8px 10px;flex-wrap:wrap;justify-content:flex-end;font-size:12px}.nav nav a{white-space:nowrap}.nav-cta{padding:7px 11px}.hero{padding:65px 0}.hero-grid,.curriculum-grid,.philosophy-grid{grid-template-columns:1fr;gap:40px}.hero-card{max-width:520px;margin:auto}.trust-items{grid-template-columns:repeat(2,1fr)}.trust-items div:nth-child(2){border-right:0}.value-grid,.steps{grid-template-columns:1fr 1fr}.section{padding:75px 0}.parent-grid{grid-template-columns:1fr}.footer-grid{display:block}.footer-grid>div:last-child{margin-top:25px}}@media(max-width:520px){.nav{min-height:62px}.logo{font-size:18px}.nav nav{max-width:285px;gap:6px 8px;font-size:11px}.nav nav a{padding:2px 0}.nav-cta{padding:6px 9px}.wrap{width:min(var(--max),calc(100% - 28px))}.hero h1{font-size:34px}.lead{font-size:15px}.value-grid,.steps{grid-template-columns:1fr}.trust-items strong{font-size:18px}.start-box{padding:45px 20px}.start-flow{display:block}.start-flow span{display:inline-block;margin:3px}.start-flow b{display:none}.footer-grid>div:last-child{grid-template-columns:1fr}}
+
+
+/* 対象年齢・学び直しメッセージ */
+.age-message { margin: 22px 0 0; padding: 18px 20px; border-left: 4px solid currentColor; background: rgba(255,255,255,.55); line-height: 1.8; font-size: .96rem; }
+.age-message strong { font-size: 1.05rem; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="#top">AI寺子屋</a>
+    <nav>
+      <a href="#about">AI寺子屋とは</a>
+      <a href="#curriculum">52週間</a>
+      <a href="#parents">保護者の方へ</a>
+      <a class="nav-cta" href="#start">AI寺子屋を始める</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">毎日10分の対話型・AI教育</p>
+      <h1>答えをもらう子ではなく、<br><span>自分で考えられる人</span>へ。</h1>
+      <p class="lead">AI寺子屋は、AIに答えを教えてもらうための場所ではありません。<br>「なぜ？」「本当にそうだろうか？」と考え、自分の言葉で答える習慣を育てます。</p>
+      <div class="age-message"><strong>子どもから40歳まで。大人の「学び直し」にも。</strong><br>学校で学ぶ時期だけが学びの時間ではありません。AI寺子屋は、子どもから社会人まで、年齢や経験に合わせて「考える力・判断する力・行動する力」をもう一度育て直せる学びの場を目指します。</div>
+      <div class="hero-actions">
+        <a class="button primary" href="#start">AI寺子屋を始める <span>→</span></a>
+        <a class="button secondary" href="#about">まず内容を見る</a>
+      </div>
+      <p class="micro">無料で始められます。1回約10分。特別な教材は必要ありません。</p>
+    </div>
+    <div class="hero-card">
+      <div class="card-label">今日の10分</div>
+      <div class="dialogue ai"><span>AI教師</span><strong>「どうして、そう思ったの？」</strong></div>
+      <div class="dialogue child"><span>利用者</span><strong>「みんながそう言っているから……」</strong></div>
+      <div class="dialogue ai"><span>AI教師</span><strong>「では、みんなが間違っていたら？」</strong></div>
+      <div class="card-bottom">答えを急がず、考える。</div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="wrap trust-items">
+    <div><strong>約10分</strong><span>毎日の短い対話</span></div>
+    <div><strong>52週間</strong><span>1年を通じたカリキュラム</span></div>
+    <div><strong>12の徳目</strong><span>考え方・行動の土台</span></div>
+    <div><strong>年齢対応</strong><span>6歳〜40歳を想定</span></div>
+  </div>
+</section>
+
+<section id="about" class="section intro">
+  <div class="wrap narrow center">
+    <p class="eyebrow">AI寺子屋とは</p>
+    <h2>子どもから40歳まで、<br>「もう一度学ぶ」ためのAI寺子屋。</h2>
+    <p>AIに「正解」を聞くのではなく、AIと一緒に「自分の答え」を探します。</p>
+    <p>知識を覚えることだけなら、AIはすぐに答えを出してくれます。<br>でも、人生の中で本当に必要になるのは、答えが一つではない問題に向き合う力です。<br>子どもにはこれからの社会を生きるための学びを。大人には、これまでの経験を土台にした学び直しを。</p>
+    <p>AI寺子屋では、AI教師がすぐに答えを教えるのではなく、質問を重ねます。<br>「なぜ？」「反対の立場なら？」「他の考え方は？」<br>利用者自身が考え、自分の言葉で答えることを大切にします。</p>
+  </div>
+</section>
+
+<section class="section light">
+  <div class="wrap">
+    <div class="section-heading center">
+      <p class="eyebrow">AI寺子屋が大切にすること</p>
+      <h2>「頭のいい子」だけを目指しません。</h2>
+      <p>知識だけでなく、自分を律し、人を尊重し、行動に責任を持つ力を育てます。</p>
+    </div>
+    <div class="value-grid">
+      <article><div class="icon">01</div><h3>自分で考える</h3><p>「みんなが言っているから」ではなく、自分で理由を考える。</p></article>
+      <article><div class="icon">02</div><h3>自分を律する</h3><p>欲しいもの、怒り、誘惑に流されず、自分の行動を選ぶ。</p></article>
+      <article><div class="icon">03</div><h3>人を尊重する</h3><p>自分と違う意見にも耳を傾け、相手の立場から考えてみる。</p></article>
+      <article><div class="icon">04</div><h3>失敗から学ぶ</h3><p>失敗を恥で終わらせず、「なぜ失敗したのか」を考える。</p></article>
+      <article><div class="icon">05</div><h3>責任を持つ</h3><p>自由には責任があることを、日々の小さな行動から学ぶ。</p></article>
+      <article><div class="icon">06</div><h3>自分の軸を持つ</h3><p>他人に勝つ強さではなく、自分自身を律する強さを育てる。</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section how">
+  <div class="wrap">
+    <div class="section-heading center">
+      <p class="eyebrow">1回約10分</p>
+      <h2>授業は、こんなふうに進みます。</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span>01</span><h3>今日の問い</h3><p>「約束は、なぜ守らなければいけない？」</p></div>
+      <div class="step"><span>02</span><h3>自分の答え</h3><p>まずは正解を気にせず、自分の考えを話します。</p></div>
+      <div class="step"><span>03</span><h3>「なぜ？」を掘る</h3><p>理由を考え、別の立場からも考えてみます。</p></div>
+      <div class="step"><span>04</span><h3>今日の一言</h3><p>昔の知恵を読み、今の自分の生活につなげます。</p></div><div class="step"><span>05</span><h3>今日の実践</h3><p>最後に、今日できる小さな行動を一つ決めます。</p></div>
+    </div>
+    <div class="quote">「正解を当てること」より、<strong>「なぜそう考えたのか」</strong>を大切にします。</div>
+  </div>
+</section>
+
+<section id="daily-wisdom" class="section daily-wisdom">
+  <div class="wrap curriculum-grid">
+    <div>
+      <p class="eyebrow">毎日の学びに、昔の知恵を</p>
+      <h2>「今日の一言」を、<br>今日の自分の生活につなげる。</h2>
+      <p>AI寺子屋では、毎日の問いに加えて、実語教を中心とした昔の知恵・道徳の言葉を一つ紹介します。</p>
+      <p>ただ覚えるだけではありません。<strong>言葉 → 意味 → 自分の経験 → 今日の実践 → 振り返り</strong>へつなげます。</p>
+      <p>必要に応じて、利用者自身が一度声に出して読みます。暗記を目的にせず、その言葉が今の自分に何を問いかけるのかを考えます。</p>
+    </div>
+    <div class="timeline">
+      <div><b>01</b><span>今日の問い ― 自分で考える</span></div>
+      <div><b>02</b><span>今日の一言 ― 昔の知恵を知る</span></div>
+      <div><b>03</b><span>朗読 ― 一度、声に出して読む</span></div>
+      <div><b>04</b><span>自分の生活 ― 似た経験を探す</span></div>
+      <div><b>05</b><span>今日の一歩 ― 小さく実践する</span></div>
+      <div><b>06</b><span>振り返り ― やってみて考える</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="curriculum" class="section light">
+  <div class="wrap curriculum-grid">
+    <div>
+      <p class="eyebrow">12か月・52週間</p>
+      <h2>少しずつ、考えるテーマを広げていきます。</h2>
+      <p>最初から難しい話をするのではありません。まず「自分」を知り、次に「人との関係」、そして「社会」「仕事」「AI」「人生」へ。</p>
+      <p>一つのテーマを急いで終わらせるのではなく、利用者の反応に合わせて深く考えることを優先します。</p>
+      <a class="text-link" href="#curriculum">52週カリキュラムを見る →</a>
+    </div>
+    <div class="timeline">
+      <div><b>01–08</b><span>自分を知る</span></div>
+      <div><b>09–16</b><span>人との関係</span></div>
+      <div><b>17–24</b><span>自分を律する</span></div>
+      <div><b>25–34</b><span>社会と歴史</span></div>
+      <div><b>35–44</b><span>知識・お金・仕事・AI</span></div>
+      <div><b>45–52</b><span>人生</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section philosophy">
+  <div class="wrap philosophy-grid">
+    <div class="philosophy-card"><p>目指すのは、</p><h2>他人を支配する強さではなく、<br>自分自身を律する強さ。</h2></div>
+    <div class="philosophy-copy">
+      <p>AI寺子屋では、仁・義・礼・智・信・勇・廉・恥・孝・忠・克己・責任といった価値を、考えるための教材として扱います。</p>
+      <p>儒教、朱子学、武士道、日本文化、日本史なども題材にします。ただし、何かを無条件に正しいと押し付けるのではありません。</p>
+      <p>「なぜ昔はそう考えたのか」「今でも通用するのか」「問題点は何か」「反対の考え方は何か」。自分で考えることを大切にします。</p>
+    </div>
+  </div>
+</section>
+
+<section id="parents" class="section light parents">
+  <div class="wrap">
+    <div class="section-heading center">
+      <p class="eyebrow">保護者の方へ</p>
+      <h2>AIに任せきりにしないための、AI教育です。</h2>
+    </div>
+    <div class="parent-grid">
+      <div><h3>答えを丸写しさせない</h3><p>AI教師は、利用者が考える前に答えを与えるのではなく、質問を中心に対話します。</p></div>
+      <div><h3>点数で人格を評価しない</h3><p>ランキングや人格の点数化ではなく、昨日の自分からの変化を大切にします。</p></div>
+      <div><h3>間違いを曖昧にしない</h3><p>考え方は尊重しながら、事実の間違いはきちんと確認し、学び直します。</p></div>
+      <div><h3>最後は現実の行動へ</h3><p>毎回一つだけ、家族への感謝や約束を守ることなど、生活の中で実践します。</p></div>
+    </div>
+    <div class="parent-note">※AI寺子屋は学校教育や専門家による指導の代替を目的とするものではありません。未成年者が利用する場合は、年齢や状況に応じて保護者が内容を確認してください。</div>
+  </div>
+</section>
+
+<section id="start" class="section start">
+  <div class="wrap start-box">
+    <p class="eyebrow">今日から始められます</p>
+    <h2>まずは、今日の10分から。</h2>
+    <p>特別な教材も、難しい設定も必要ありません。<br><strong>初回だけ</strong>開始用プロンプトを使います。<strong>2日目以降は、同じChatGPTのチャットで「今日の寺子屋を始めよう」と入力するだけ。</strong></p>
+    <div class="start-flow"><span>① コピー</span><b>→</b><span>② ChatGPTへ貼る</span><b>→</b><span>③ 年齢を伝える</span><b>→</b><span>④ 今日の授業</span></div>
+    <a class="button primary big" href="start/index.html">AI寺子屋を始める <span>→</span></a>
+    <p class="micro">まずは一度、親子で試してみてください。</p>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="wrap center">
+    <h2>利用者に、答えだけではなく<br>「考える力」を。</h2>
+    <p>毎日10分の小さな対話が、1年後の「自分の軸」につながっていきます。</p>
+    <a class="button primary" href="start/index.html">AI寺子屋を始める <span>→</span></a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div><strong>AI寺子屋</strong><p>毎日10分。AIと一緒に「自分で考える力」を育てる。</p></div>
+    <div><a href="start/index.html">AI寺子屋を始める</a><a href="#curriculum">52週カリキュラム</a><a href="#parents">保護者の方へ</a><a href="start/index.html">AI教師プロンプト</a></div>
+  </div>
+  <div class="wrap copyright">© AI寺子屋</div>
+</footer>
+
+
+<button data-install-pwa hidden style="position:fixed;right:14px;bottom:14px;z-index:9999;border:0;border-radius:999px;padding:12px 16px;background:#26332f;color:#fff;font-weight:700;box-shadow:0 6px 18px rgba(0,0,0,.2)">ホーム画面に追加</button>
+<script>
+(function(){
+  var deferredPrompt;
+  window.addEventListener('beforeinstallprompt', function(e){e.preventDefault();deferredPrompt=e;var b=document.querySelector('[data-install-pwa]');if(b){b.hidden=false;b.onclick=function(){deferredPrompt.prompt();deferredPrompt.userChoice.finally(function(){deferredPrompt=null;b.hidden=true;});};}});
+  window.addEventListener('appinstalled',function(){var b=document.querySelector('[data-install-pwa]');if(b)b.hidden=true;});
+})();
+</script>
+</body>
+</html>
